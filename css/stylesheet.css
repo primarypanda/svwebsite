@@ -140,109 +140,52 @@ iframe {
 
 .portfolio-main-content {
   position:relative;
-}
-
-.portfolio-first-row {
   margin-top: 70px;
   background: #fff;
-  max-width:100%;
-  margin-left:auto;
-  margin-right:auto;
+  height: 100%;
 }
 
-.portfolio-other-rows {
-  background: #fff;
-  max-width:100%;
-  margin-left:auto;
-  margin-right:auto;
+.row {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-bottom:.35%;
 }
 
-img {
+.thumbnail {
   position:relative;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
+  width:24.7%;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0);
 }
 
-.left {
-  float:left;
-  margin-right:.5%;
+.thumbnail img {
+  display:block;
+  width:100%;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
 }
 
-.right {
-  float:right;
-}
-
-img.under-left {
-  position:absolute;
-  left:0;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
-}
-
-img.under-middle {
-  position:absolute;
-  left:33.5%;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
-}
-
-img.under-right {
-  position:absolute;
+.base {
+  position:relative;
   top:0;
-  right:0;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
+  left:0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
 }
 
-img.under-right-2 {
-  position:absolute;
-  top:20%;
-  right:0;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
-}
-
-img.under-right-3 {
-  position:absolute;
-  top:40%;
-  right:0;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
-}
-
-img.under-right-4 {
-  position:absolute;
-  top:60%;
-  right:0;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
-}
-
-img.under-right-5 {
-  position:absolute;
-  top:80%;
-  right:0;
-  width:33%;
-  margin:0px;
-  margin-bottom:.2%;
-  display:inline;
+.overlay {
+  heigth:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
 }
 
 .hover {
@@ -264,7 +207,6 @@ img.under-right-5 {
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0);
 }
-
 
 
 /* Portfolio Main Content end */
