@@ -27,10 +27,42 @@ body {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 #logo-link {
   position:absolute;
   max-width:20vw;
   left:15%;
+=======
+.logo {
+  float:left;
+  margin-top:0px;
+  margin-bottom:0px;
+  display:inline-block;
+}
+
+.logo img {
+  width:400px;
+  margin-top:-40px;
+}
+
+@font-face {
+    font-family:"Futura LT Bold";
+    src:url(../fonts/FuturaLT-Bold.ttf) format("truetype");
+}
+
+h1.FuturaLTBold {
+  font-family:"Futura LT Bold";
+  color:#161514;
+  float:left;
+  margin-top:0px;
+  margin-bottom:0px;
+  display:inline-block;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+>>>>>>> 570615672fc061ca05e474eac46f6699aca88940
 }
 
 #main-logo {

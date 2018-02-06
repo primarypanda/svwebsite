@@ -31,9 +31,26 @@
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
+<<<<<<< HEAD:projects/terranet.php
 		<?php
 		include('../php/menu.php');
 		?>
+=======
+		<div class="navbar-content">
+			<a href="../index.html">
+				<div class="logo">
+					<img id="project-logo"/>
+				</div>
+			</a>
+			<ul>
+				<li><a href="../about.html" class="STSong">Om Oss</a></li>
+				<li><p class="STSong">//</p>
+				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
+				<li><p class="STSong">//</p>
+				<li><a href="../index.html" class="STSong">Hem</a></li>
+			</ul>
+		</div>
+>>>>>>> 570615672fc061ca05e474eac46f6699aca88940:project/terranet.html
 		<!-- Logo and Navigation bar end -->
 
 		<!-- Project Main Content -->
