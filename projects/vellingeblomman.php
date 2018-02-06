@@ -31,16 +31,9 @@
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
-		<div class="navbar-content">
-			<a href="../index.html"><h1 class="FuturaLTBold">SIMPLY VISUAL</h1></a>
-			<ul>
-				<li><a href="../about.html" class="STSong">Om Oss</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../index.html" class="STSong">Hem</a></li>
-			</ul>
-		</div>
+		<?php
+		include('../php/menu.php');
+		?>
 		<!-- Logo and Navigation bar end -->
 
 		<!-- Project Main Content -->
@@ -56,8 +49,8 @@
 		<!-- Arrows -->
 
 		<div class="arrows">
-					<a href="terranet.html"><img class="left" src="../images/buttons/previous.png"/></a>
-					<a href="george.html"><img class="right" src="../images/buttons/next.png"/></a>
+					<a href="terranet.php"><img class="left" src="../images/buttons/previous.png"/></a>
+					<a href="george.php"><img class="right" src="../images/buttons/next.png"/></a>
 		</div>
 
 		<!-- Arrows end -->

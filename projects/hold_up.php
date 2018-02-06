@@ -3,7 +3,7 @@
 <html lang="sv">
 <head>
 
-	<title>template</title>
+	<title>Hold Up</title>
 
 	<meta charset="utf-8">
 	<meta name="description" content="Vi skapar allt från kortfilm och reklamfilm till PR-videor för företag, organisationer, event och mycket mer. Vi ser till att din idé förmedlas på bästa sätt!">
@@ -31,23 +31,16 @@
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
-		<div class="navbar-content">
-			<a href="../index.html"><h1 class="FuturaLTBold">SIMPLY VISUAL</h1></a>
-			<ul>
-				<li><a href="../about.html" class="STSong">Om Oss</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../index.html" class="STSong">Hem</a></li>
-			</ul>
-		</div>
+		<?php
+		include('../php/menu.php');
+		?>
 		<!-- Logo and Navigation bar end -->
 
 		<!-- Project Main Content -->
 		<div class="project-box">
 			<div class="project-main-content">
-		    <h2>Template</h2>
-		    <iframe src="https://player.vimeo.com/video/253826632?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		    <h2>Hold Up</h2>
+		    <iframe src="https://player.vimeo.com/video/240708851?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<div class="description">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Neque laoreet suspendisse interdum consectetur libero id faucibus. Dolor sed viverra ipsum nunc aliquet bibendum enim. Mi quis hendrerit dolor magna. Vel facilisis volutpat est velit egestas. Velit sed ullamcorper morbi tincidunt ornare massa. Viverra maecenas accumsan lacus vel facilisis volutpat est velit. Viverra suspendisse potenti nullam ac tortor.</p>
 				</div>
@@ -63,8 +56,8 @@
 		<!-- Arrows -->
 
 		<div class="arrows">
-					<a href="#"><img class="left" src="../images/buttons/previous.png"/></a>
-					<a href="#"><img class="right" src="../images/buttons/next.png"/></a>
+					<a href="vinge.php"><img class="left" src="../images/buttons/previous.png"/></a>
+					<a href="moneygo.php"><img class="right" src="../images/buttons/next.png"/></a>
 		</div>
 
 		<!-- Arrows end -->

@@ -3,7 +3,7 @@
 <html lang="sv">
 <head>
 
-	<title>Trepak</title>
+	<title>Moneygo</title>
 
 	<meta charset="utf-8">
 	<meta name="description" content="Vi skapar allt från kortfilm och reklamfilm till PR-videor för företag, organisationer, event och mycket mer. Vi ser till att din idé förmedlas på bästa sätt!">
@@ -31,27 +31,16 @@
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
-		<div class="navbar-content">
-			<a href="../index.html"><h1 class="FuturaLTBold">SIMPLY VISUAL</h1></a>
-			<ul>
-				<li><a href="../about.html" class="STSong">Om Oss</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../index.html" class="STSong">Hem</a></li>
-			</ul>
-		</div>
+		<?php
+		include('../php/menu.php');
+		?>
 		<!-- Logo and Navigation bar end -->
 
 		<!-- Project Main Content -->
 		<div class="project-box">
 			<div class="project-main-content">
-		    <h2>Trepak</h2>
-		    <iframe src="https://player.vimeo.com/video/247823034?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<div class="project-bts-content">
-					<img src="../images/projects/trepak/bts_trepak_1.jpg"/>
-					<img src="../images/projects/trepak/bts_trepak_2.jpg"/>
-				</div>
+		    <h2>Moneygo</h2>
+		    <iframe src="https://player.vimeo.com/video/183708697?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 		</div>
 		<!-- Project Main Content end -->
@@ -59,8 +48,8 @@
 		<!-- Arrows -->
 
 		<div class="arrows">
-					<a href="valkommen.html"><img class="left" src="../images/buttons/previous.png"/></a>
-					<a href="euro_finans.html"><img class="right" src="../images/buttons/next.png"/></a>
+					<a href="hold_up.php"><img class="left" src="../images/buttons/previous.png"/></a>
+					<a href="portia.php"><img class="right" src="../images/buttons/next.png"/></a>
 		</div>
 
 		<!-- Arrows end -->

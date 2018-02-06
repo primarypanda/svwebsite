@@ -3,7 +3,7 @@
 <html lang="sv">
 <head>
 
-	<title>Vinge Growth</title>
+	<title>Characters</title>
 
 	<meta charset="utf-8">
 	<meta name="description" content="Vi skapar allt från kortfilm och reklamfilm till PR-videor för företag, organisationer, event och mycket mer. Vi ser till att din idé förmedlas på bästa sätt!">
@@ -31,23 +31,20 @@
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
-		<div class="navbar-content">
-			<a href="../index.html"><h1 class="FuturaLTBold">SIMPLY VISUAL</h1></a>
-			<ul>
-				<li><a href="../about.html" class="STSong">Om Oss</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../index.html" class="STSong">Hem</a></li>
-			</ul>
-		</div>
+		<?php
+		include('../php/menu.php');
+		?>
 		<!-- Logo and Navigation bar end -->
 
 		<!-- Project Main Content -->
 		<div class="project-box">
 			<div class="project-main-content">
-		    <h2>Vinge Growth</h2>
-		    <iframe src="https://player.vimeo.com/video/170615535?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		    <h2>Characters</h2>
+		    <iframe src="https://player.vimeo.com/video/247053481?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/247053505?autoplay=0&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/247053444?autoplay=0&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/247053397?autoplay=0&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/247053356?autoplay=0&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 		</div>
 		<!-- Project Main Content end -->
@@ -55,8 +52,8 @@
 		<!-- Arrows -->
 
 		<div class="arrows">
-					<a href="george.html"><img class="left" src="../images/buttons/previous.png"/></a>
-					<a href="hold_up.html"><img class="right" src="../images/buttons/next.png"/></a>
+					<a href="euro_finans.php"><img class="left" src="../images/buttons/previous.png"/></a>
+					<a href="limhamns_crossfit.php"><img class="right" src="../images/buttons/next.png"/></a>
 		</div>
 
 		<!-- Arrows end -->

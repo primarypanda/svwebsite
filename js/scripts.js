@@ -29,3 +29,42 @@ $(function(){
     });
   }
 });
+
+
+// Randomizing logo Main //
+
+function getRandomMainImage(){
+
+    var images = [
+        "images/logo/1.gif",
+        "images/logo/2.gif",
+        "images/logo/3.gif",
+        "images/logo/4.gif",
+        "images/logo/5.gif"
+    ];
+    return images[Math.floor(Math.random() * 5)];
+}
+
+$(document).ready(function(){
+    $("#main-logo").attr('src', getRandomMainImage());
+});
+
+
+
+// Randomizing logo Projects //
+
+function getRandomProjectImage(){
+
+    var images = [
+        "../images/logo/1.gif",
+        "../images/logo/2.gif",
+        "../images/logo/3.gif",
+        "../images/logo/4.gif",
+        "../images/logo/5.gif"
+    ];
+    return images[Math.floor(Math.random() * 5)];
+}
+
+$(document).ready(function(){
+    $("#project-logo").attr('src', getRandomProjectImage());
+});

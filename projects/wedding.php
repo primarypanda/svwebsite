@@ -3,7 +3,7 @@
 <html lang="sv">
 <head>
 
-	<title>Helgon</title>
+	<title>Bröllop</title>
 
 	<meta charset="utf-8">
 	<meta name="description" content="Vi skapar allt från kortfilm och reklamfilm till PR-videor för företag, organisationer, event och mycket mer. Vi ser till att din idé förmedlas på bästa sätt!">
@@ -31,25 +31,16 @@
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
-		<div class="navbar-content">
-			<a href="../index.html"><h1 class="FuturaLTBold">SIMPLY VISUAL</h1></a>
-			<ul>
-				<li><a href="../about.html" class="STSong">Om Oss</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../index.html" class="STSong">Hem</a></li>
-			</ul>
-		</div>
+		<?php
+		include('../php/menu.php');
+		?>
 		<!-- Logo and Navigation bar end -->
 
 		<!-- Project Main Content -->
 		<div class="project-box">
 			<div class="project-main-content">
-		    <h2>Helgon</h2>
-		    <iframe src="https://player.vimeo.com/video/189625146?autoplay=1&color=ff5858&loop=0&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<h3>Behind the Scenes</h3>
-				<iframe src="https://player.vimeo.com/video/224207804?autoplay=0&color=ff5858&loop=0&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		    <h2>Bröllop</h2>
+		    <iframe src="https://player.vimeo.com/video/226733688?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 		</div>
 		<!-- Project Main Content end -->
@@ -57,8 +48,8 @@
 		<!-- Arrows -->
 
 		<div class="arrows">
-					<a href="wedding.html"><img class="left" src="../images/buttons/previous.png"/></a>
-					<a href="diy.html"><img class="right" src="../images/buttons/next.png"/></a>
+					<a href="suez.php"><img class="left" src="../images/buttons/previous.png"/></a>
+					<a href="helgon.php"><img class="right" src="../images/buttons/next.png"/></a>
 		</div>
 
 		<!-- Arrows end -->

@@ -3,14 +3,14 @@
 <html lang="sv">
 <head>
 
-	<title>Lacka</title>
+	<title>Simply Visual</title>
 
 	<meta charset="utf-8">
 	<meta name="description" content="Vi skapar allt från kortfilm och reklamfilm till PR-videor för företag, organisationer, event och mycket mer. Vi ser till att din idé förmedlas på bästa sätt!">
 	<meta name="author" content="Simply Visual">
-	<link rel="stylesheet" href="../css/stylesheet.css?v=1.0">
+	<link rel="stylesheet" href="css/stylesheet.css?v=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="../js/scripts.js"></script>
+	<script src="js/scripts.js"></script>
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -27,39 +27,24 @@
 
 </head>
 
-<body class="scale">
+<body>
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
-		<div class="navbar-content">
-			<a href="../index.html"><h1 class="FuturaLTBold">SIMPLY VISUAL</h1></a>
-			<ul>
-				<li><a href="../about.html" class="STSong">Om Oss</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../index.html" class="STSong">Hem</a></li>
-			</ul>
-		</div>
+		<?php
+		include('php/main-menu.php');
+		?>
 		<!-- Logo and Navigation bar end -->
 
-		<!-- Project Main Content -->
-		<div class="project-box">
-			<div class="project-main-content">
-		    <h2>Lacka</h2>
-		    <iframe src="https://player.vimeo.com/video/140665617?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<!-- About Main Content -->
+		<div class="about-content">
+			<div class="about-photo">
+				<img src="images/about/anton.jpg"/>
+				<img src="images/about/max.jpg"/>
+				<img src="images/about/johan.jpg"/>
 			</div>
 		</div>
-		<!-- Project Main Content end -->
-
-		<!-- Arrows -->
-
-		<div class="arrows">
-					<a href="oes.html"><img class="left" src="../images/buttons/previous.png"/></a>
-					<a href="terranet.html"><img class="right" src="../images/buttons/next.png"/></a>
-		</div>
-
-		<!-- Arrows end -->
+		<!-- About Main Content end -->
 
 
 	</div>

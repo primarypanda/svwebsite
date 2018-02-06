@@ -3,7 +3,7 @@
 <html lang="sv">
 <head>
 
-	<title>D.I.Y</title>
+	<title>Suez</title>
 
 	<meta charset="utf-8">
 	<meta name="description" content="Vi skapar allt från kortfilm och reklamfilm till PR-videor för företag, organisationer, event och mycket mer. Vi ser till att din idé förmedlas på bästa sätt!">
@@ -31,23 +31,16 @@
 	<div class="content">
 
 		<!-- Logo and Navigation bar -->
-		<div class="navbar-content">
-			<a href="../index.html"><h1 class="FuturaLTBold">SIMPLY VISUAL</h1></a>
-			<ul>
-				<li><a href="../about.html" class="STSong">Om Oss</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../portfolio.html" class="STSong">Portfolio</a></li>
-				<li><p class="STSong">//</p>
-				<li><a href="../index.html" class="STSong">Hem</a></li>
-			</ul>
-		</div>
+		<?php
+		include('../php/menu.php');
+		?>
 		<!-- Logo and Navigation bar end -->
 
 		<!-- Project Main Content -->
 		<div class="project-box">
 			<div class="project-main-content">
-		    <h2>D.I.Y - Sister Fay</h2>
-		    <iframe src="https://player.vimeo.com/video/152618905?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		    <h2>Suez</h2>
+		    <iframe src="https://player.vimeo.com/video/220608234?autoplay=1&color=ff5858&loop=1&title=0&byline=0&portrait=0" width="45%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 		</div>
 		<!-- Project Main Content end -->
@@ -55,8 +48,8 @@
 		<!-- Arrows -->
 
 		<div class="arrows">
-					<a href="helgon.html"><img class="left" src="../images/buttons/previous.png"/></a>
-					<a href="gifflar.html"><img class="right" src="../images/buttons/next.png"/></a>
+					<a href="limhamns_crossfit.php"><img class="left" src="../images/buttons/previous.png"/></a>
+					<a href="wedding.php"><img class="right" src="../images/buttons/next.png"/></a>
 		</div>
 
 		<!-- Arrows end -->
